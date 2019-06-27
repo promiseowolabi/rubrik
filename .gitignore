@@ -1,0 +1,5 @@
+.DS_store
+
+# Hidden files
+.python-version
+!.gitignore
