@@ -5,7 +5,7 @@ urllib3.disable_warnings()
 
 sql_instance = 'MSSQLSERVER'
 sql_host = 'em1-promowol-w1.rubrikdemo.com'
-mounted_db_name = 'AdventureClone'
+mounted_db_name = 'latest_clone'
 
 rubrik = rubrik_cdm.Connect(enable_logging=True)
 
