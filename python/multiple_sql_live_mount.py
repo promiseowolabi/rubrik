@@ -15,12 +15,9 @@ recovery_point = { 'earliest_clone': {'date':'07-11-2019', 'time':'01:30 AM'}, '
 rubrik = rubrik_cdm.Connect(enable_logging=True)
 
 for point, date_time in recovery_point.items():
-    #for datetime in date_time:
-        #print(date_time[datetime])
+
     date = date_time['date']
     time = date_time['time']
     mount_name = point
 
-    #print(date, time)
-    #print(mount_name)
     sql_live_mount = rubrik.sql_live_mount(db_name, date, time, sql_instance, sql_host, mount_name)
