@@ -2,8 +2,8 @@ import rubrik_cdm
 import urllib3
 urllib3.disable_warnings()
 
-vm_name = "em1-promowol-l1"
+mounted_vm_name = "em1-promowol-l1 07-16 15:33 0"
 
 rubrik = rubrik_cdm.Connect(enable_logging=True)
 
-live_mount = rubrik.vsphere_live_mount(vm_name, date='07-16-2019', time='03:33 PM')
+live_mount = rubrik.vsphere_live_unmount(mounted_vm_name)
