@@ -6,7 +6,7 @@ urllib3.disable_warnings()
 db_name = "AdventureWorks2016"
 sql_instance = 'MSSQLSERVER'
 sql_host = 'em1-promowol-w1.rubrikdemo.com'
-mount_name = 'AdventureCLone'
+mount_name = 'AdventureClone'
 date = '07-11-2019'
 time = '01:30 AM'
 
