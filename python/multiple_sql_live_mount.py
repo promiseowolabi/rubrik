@@ -15,7 +15,6 @@ recovery_point = { 'earliest_clone': {'date':'07-11-2019', 'time':'01:30 AM'}, '
 rubrik = rubrik_cdm.Connect(enable_logging=True)
 
 for point, date_time in recovery_point.items():
-
     date = date_time['date']
     time = date_time['time']
     mount_name = point
