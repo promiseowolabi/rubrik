@@ -1,0 +1,117 @@
+{
+    "hasMore": false,
+    "data": [
+      {
+        "filename": ".bash_history",
+        "path": ".bash_history",
+        "lastModified": "2019-08-06T17:21:26+0000",
+        "size": 2404,
+        "fileMode": "file",
+        "statusMessage": ""
+      },
+      {
+        "filename": ".bash_logout",
+        "path": ".bash_logout",
+        "lastModified": "2019-06-24T14:53:50+0000",
+        "size": 18,
+        "fileMode": "file",
+        "statusMessage": ""
+      },
+      {
+        "filename": ".bash_profile",
+        "path": ".bash_profile",
+        "lastModified": "2019-06-24T14:53:50+0000",
+        "size": 193,
+        "fileMode": "file",
+        "statusMessage": ""
+      },
+      {
+        "filename": ".bashrc",
+        "path": ".bashrc",
+        "lastModified": "2019-07-31T12:28:51+0000",
+        "size": 236,
+        "fileMode": "file",
+        "statusMessage": ""
+      },
+      {
+        "filename": ".oh-my-zsh",
+        "path": ".oh-my-zsh",
+        "lastModified": "2019-07-31T11:47:04+0000",
+        "size": 4275847,
+        "fileMode": "directory",
+        "statusMessage": ""
+      },
+      {
+        "filename": ".pki",
+        "path": ".pki",
+        "lastModified": "2019-07-24T15:35:53+0000",
+        "size": 8192,
+        "fileMode": "directory",
+        "statusMessage": ""
+      },
+      {
+        "filename": ".zcompdump-em1-promowol-l1-5.0.2",
+        "path": ".zcompdump-em1-promowol-l1-5.0.2",
+        "lastModified": "2019-07-31T11:36:55+0000",
+        "size": 36397,
+        "fileMode": "file",
+        "statusMessage": ""
+      },
+      {
+        "filename": ".zsh_history",
+        "path": ".zsh_history",
+        "lastModified": "2019-08-06T17:56:57+0000",
+        "size": 1191,
+        "fileMode": "file",
+        "statusMessage": ""
+      },
+      {
+        "filename": ".zshrc",
+        "path": ".zshrc",
+        "lastModified": "2019-07-31T11:47:49+0000",
+        "size": 3558,
+        "fileMode": "file",
+        "statusMessage": ""
+      },
+      {
+        "filename": ".zshrc.pre-oh-my-zsh",
+        "path": ".zshrc.pre-oh-my-zsh",
+        "lastModified": "2019-07-24T15:38:05+0000",
+        "size": 3558,
+        "fileMode": "file",
+        "statusMessage": ""
+      },
+      {
+        "filename": "boston.txt",
+        "path": "boston.txt",
+        "lastModified": "2019-08-06T17:54:14+0000",
+        "size": 8388608,
+        "fileMode": "file",
+        "statusMessage": ""
+      },
+      {
+        "filename": "london.txt",
+        "path": "london.txt",
+        "lastModified": "2019-08-06T17:56:32+0000",
+        "size": 10485760,
+        "fileMode": "file",
+        "statusMessage": ""
+      },
+      {
+        "filename": "newyork.txt",
+        "path": "newyork.txt",
+        "lastModified": "2019-08-06T17:53:52+0000",
+        "size": 4194304,
+        "fileMode": "file",
+        "statusMessage": ""
+      },
+      {
+        "filename": "paloalto.txt",
+        "path": "paloalto.txt",
+        "lastModified": "2019-08-06T17:55:22+0000",
+        "size": 20971520,
+        "fileMode": "file",
+        "statusMessage": ""
+      }
+    ]
+  }

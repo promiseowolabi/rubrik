@@ -7,7 +7,7 @@ db_name = "AdventureWorks2016"
 sql_instance = 'MSSQLSERVER'
 sql_host = 'em1-promowol-w1.rubrikdemo.com'
 mount_name = 'AdventureClone'
-date = '07-11-2019'
+date = '07-19-2019'
 time = '01:30 AM'
 
 rubrik = rubrik_cdm.Connect(enable_logging=True)
