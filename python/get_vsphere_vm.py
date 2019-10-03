@@ -5,5 +5,5 @@ urllib3.disable_warnings()
 
 rubrik = rubrik_cdm.Connect(enable_logging=True)
 
-get_vsphere_vm = rubrik.get_vsphere_vm(limit=1, sort_order='asc')
+get_vsphere_vm = rubrik.get_vsphere_vm(name='em1-promowol-l1', limit=1, sort_order='asc')
 print(get_vsphere_vm)
