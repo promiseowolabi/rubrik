@@ -23,7 +23,7 @@ target_file_paths = [{'logicalName': 'AdventureWorks2016_Data',
                       'newFilename': 'AdventureWorks2016_Log_export.mdf'}]
 rubrik = rubrik_cdm.Connect(enable_logging=True)
 
-get_db_files = rubrik.sql_db_export(db_name, 
+sql_export = rubrik.sql_db_export(db_name, 
                                     date, 
                                     time, 
                                     sql_instance, 
@@ -35,4 +35,4 @@ get_db_files = rubrik.sql_db_export(db_name,
                                     target_log_file_path,
                                     target_file_paths)
 
-print(get_db_files)
+print(sql_export)
