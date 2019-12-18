@@ -10,6 +10,6 @@ effective_sla_domain = '4hr-30d-Azure'
 
 rubrik = rubrik_cdm.Connect(enable_logging=True)
 
-get_db = rubrik.get_sql_db(db_name=db_name, hostname=hostname)#, instance=instance hostname=hostname)
+get_db = rubrik.get_sql_db(is_live_mount=True)#, instance=instance hostname=hostname)
 
 print(get_db)
