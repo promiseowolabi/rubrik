@@ -8,4 +8,5 @@ rubrik = rubrik_cdm.Connect(enable_logging=True)
 get_vsphere_vm = rubrik.get_vsphere_vm()
 
 for item in get_vsphere_vm['data']:
-    print(f"{item['name']} SLA is {item['slaAssignment']}")
+    if item['effectiveSlaDomainName'] == 'Unprotected':
+        print(item['name'])
