@@ -2,7 +2,7 @@ import rubrik_cdm
 import urllib3
 urllib3.disable_warnings()
 
-mounted_vm_name = "em1-promowol-l1 07-16 15:33 0"
+mounted_vm_name = "em1-promowol-l1 01-08 15:13 0"
 
 rubrik = rubrik_cdm.Connect(enable_logging=True)
 

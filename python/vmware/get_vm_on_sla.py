@@ -7,5 +7,5 @@ rubrik = rubrik_cdm.Connect(enable_logging=True)
 
 get_vm_sla = rubrik.get_sla_objects('4hr-30d-AWS', 'vmware')
 
-for item in get_vm_sla.items():
-    print(item)
+for key, value in get_vm_sla.items():
+    print(key, '->', value)
